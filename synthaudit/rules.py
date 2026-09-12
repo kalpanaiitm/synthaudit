@@ -32,7 +32,10 @@ CHECKS = {
     "pressure_ph": {
         "label": "Pressure or pH, where relevant",
         "weight": 7,
-        "patterns": [r"\b(?:pH\s?\d+(?:\.\d+)?|\d+(?:\.\d+)?\s?(?:bar|atm|Pa|MPa|psi))\b"],
+        "patterns": [
+            r"\bpH(?:\s+(?:was\s+)?(?:adjusted|set)\s+to)?\s*[:=]?\s*\d+(?:\.\d+)?\b",
+            r"\b\d+(?:\.\d+)?\s?(?:bar|atm|Pa|MPa|psi)\b",
+        ],
     },
     "post_processing": {
         "label": "Cooling, washing, or drying",
