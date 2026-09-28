@@ -54,3 +54,7 @@ SynthAudit assesses whether categories of information appear to be reported. Key
 ## Licence
 
 MIT. See `LICENSE`.
+
+## Engineering evidence
+
+See [project blueprint](PROJECT_BLUEPRINT.md), [architecture](ARCHITECTURE.md), [test report](TEST_REPORT.md) and [changelog](CHANGELOG.md) for implemented scope, verification and next milestones. These documents follow the human-controlled App Development Playbook; planned features are not represented as implemented.
